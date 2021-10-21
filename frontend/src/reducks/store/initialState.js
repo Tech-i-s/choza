@@ -1,14 +1,16 @@
 const initialState = {
-  items: {
-
-  },
+    items: {
+        results: [],
+        count: 0,
+        next: null,
+        previous: null
+    },
     user: {
-        user_name: "",
-        email: "",
-        token: "",
-        token_expires_at: "",
+        user_name: '',
+        email: '',
+        token: '',
+        token_expires_at: ''
     }
 };
-
 
 export default initialState;
